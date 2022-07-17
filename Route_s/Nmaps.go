@@ -11,6 +11,7 @@ import (
 type Returndata struct {
 	ports string
 	ip    string
+	
 }
 
 func Nmap(ip, ports string) string {
