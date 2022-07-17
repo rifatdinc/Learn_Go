@@ -7,7 +7,7 @@ func Pointer(s string) {
 	i, j := 42, 2701
 	// i nin ram adresine  p yi atiyoruz
 	p := &i
-	fmt.Println(*p)
+	fmt.Println(*p, s)
 	// burada basilan deger 42
 	*p = 21
 	// burada ramdaki adresi degistiriyoruz.
