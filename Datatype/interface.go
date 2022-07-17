@@ -20,6 +20,7 @@ type ReadWriter interface {
 
 func Interfaces() {
 	var w Write
+	fmt.Println(w)
 	w = os.Stdout
 
 	fmt.Fprintf(w, "hello, writer\n")
