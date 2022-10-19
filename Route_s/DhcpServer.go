@@ -10,4 +10,5 @@ type Dhcpserver struct {
 
 func d() {
 	fmt.Println("okey")
+	fmt.Println("niye")
 }
