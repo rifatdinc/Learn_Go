@@ -1,5 +1,7 @@
 package workspace
 
+import "fmt"
+
 type Interface interface {
 }
 
@@ -11,4 +13,5 @@ type Dhcpserver struct {
 func d() {
 	fmt.Println("okey")
 	fmt.Println("niye")
+	fmt.Println("okeys")
 }
